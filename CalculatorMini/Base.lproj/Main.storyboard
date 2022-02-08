@@ -121,6 +121,9 @@
                                                                         </fragment>
                                                                     </attributedString>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="addPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IaV-X9-Vj9"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vwd-3x-taZ">
                                                                 <rect key="frame" x="151" y="0.0" width="52" height="40"/>
@@ -135,6 +138,9 @@
                                                                         </fragment>
                                                                     </attributedString>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="subPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqc-u0-fR8"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -154,6 +160,9 @@
                                                                         </fragment>
                                                                     </attributedString>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="multiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UZp-Hf-eh8"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lwy-So-R88">
                                                                 <rect key="frame" x="151" y="0.0" width="52" height="40"/>
@@ -168,6 +177,9 @@
                                                                         </fragment>
                                                                     </attributedString>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="divPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dSk-gg-Hbc"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -192,6 +204,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="resetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lqt-gG-00x"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -214,6 +229,11 @@
                             <constraint firstItem="kSC-5o-6EJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xzr-7L-Sdu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberOneText" destination="pIt-Qi-9Hc" id="VIi-Qu-WyB"/>
+                        <outlet property="numberTwoText" destination="J0J-E5-PsB" id="QNT-OX-JGj"/>
+                        <outlet property="resultText" destination="Z0k-iQ-97k" id="T7z-IL-DXY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
